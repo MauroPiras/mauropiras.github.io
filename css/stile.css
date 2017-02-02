@@ -3,7 +3,9 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
+#logo {
+	width: 100%;
+}
 .cella:hover {
 	background-color: rgba(183, 189, 202, 0.5);
 	border : 2px solid green;
@@ -68,7 +70,7 @@ nav {
 .arrowgreen li a{
 	color: white;
 	margin-bottom: 1px;
-	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
 	display: block;
 	background: transparent url("../img/arrowblue.gif") 100% 0;
   	height: 32px; /*Set to height of bg image- padding within link (ie: 32px - 4px - 4px)*/

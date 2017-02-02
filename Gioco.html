@@ -12,26 +12,26 @@
 </head>
 <body>
 	<div id="container" class="col-xs-12">
-		<header id="titolo" class="col-xs-12" align=center>
-			<div class="col-xs-2"></div>
-			<img class="col-xs-8" src="img/logo.png" alt="LOGO" height=140px width=500px>
-			<div class="col-xs-2"></div>
+		<header class="col-xs-12" align=center>
+			<div class="col-xs-0 col-md-2"></div>
+			<div class="col-xs-12 col-md-8"><img id="logo" class="col-xs-8" src="img/logo.png" alt="LOGO" height=140px></div>
+			<div class="col-xs-0 col-md-2"></div>
 		</header>
-		<nav class="col-xs-2">
+		<nav class="col-xs-12 col-sm-2">
 			<header>
 				<h4><b>Menu principale</b></h4>
 			</header>
 			<article>
 				<div class="arrowgreen">
 				<ul>
-					<li><a href="index.html">Torna alla Home!</a></li>
-					<li><a href="Gioco.html?single=true">SinglePlayer!</a></li>
-					<li><a href="Gioco.html?single=false">MultiPlayer! </a></li>
+					<li><a class="voci-menu" href="index.html">Torna alla Home!</a></li>
+					<li><a class="voci-menu" href="Gioco.html?single=true">SinglePlayer!</a></li>
+					<li><a class="voci-menu" href="Gioco.html?single=false">MultiPlayer! </a></li>
 				</ul>
 				</div>
 			</article>
 		</nav>
-		<article class="col-xs-8 col-md-8" id="matrice" align=center>
+		<article class="col-xs-12 col-sm-8" id="matrice" align=center>
 			<h2><b>Partita in corso</b></h2>
 			<h3></h3>
 			<table id="tabella" align=center>
@@ -52,7 +52,7 @@
 				</tr>
 			</table>
 		</article>
-		<aside class="col-xs-2">
+		<aside class="col-xs-12 col-sm-2">
 			<h4>Descrizione</h4>
 		</aside>
 	</div>
