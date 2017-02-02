@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>Gioco</title>
+	<script src="js/jquery-3.1.1.js"></script>
+	<link rel="stylesheet" href="css/stile.css">
+	<script type="text/javascript" src="js/script.js"></script>	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="container" class="col-xs-12">
+		<header id="titolo" class="col-xs-12" align=center>
+			<div class="col-xs-2"></div>
+			<img class="col-xs-8" src="img/logo.png" alt="LOGO" height=140px width=500px>
+			<div class="col-xs-2"></div>
+		</header>
+		<nav class="col-xs-2">
+			<header>
+				<h4><b>Menu principale</b></h4>
+			</header>
+			<article>
+				<div class="arrowgreen">
+				<ul>
+					<li><a href="index.html">Torna alla Home!</a></li>
+					<li><a href="Gioco.html?single=true">SinglePlayer!</a></li>
+					<li><a href="Gioco.html?single=false">MultiPlayer! </a></li>
+				</ul>
+				</div>
+			</article>
+		</nav>
+		<article class="col-xs-8 col-md-8" id="matrice" align=center>
+			<h2><b>Partita in corso</b></h2>
+			<h3></h3>
+			<table id="tabella" align=center>
+				<tr class="riga" id="prima-riga">
+					<td class="cella" id="1"></td>
+					<td class="cella" id="2"></td>
+					<td class="cella" id="3"></td>
+				</tr>
+				<tr class="riga" id="seconda-riga">
+					<td class="cella" id="4"></td>
+					<td class="cella" id="5"></td>
+					<td class="cella" id="6"></td>
+				</tr>
+				<tr class="riga" id="terza-riga">
+					<td class="cella" id="7"></td>
+					<td class="cella" id="8"></td>
+					<td class="cella" id="9"></td>
+				</tr>
+			</table>
+		</article>
+		<aside class="col-xs-2">
+			<h4>Descrizione</h4>
+		</aside>
+	</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+	background-image: url("../img/sfondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cella:hover {
+	background-color: rgba(183, 189, 202, 0.5);
+	border : 2px solid green;
+}
+
+.cella {
+	border : 2px solid black;
+	width: 120px;
+	height: 120px;
+	font-size: 550%;
+	font-family: '"Comic Sans MS", cursive, sans-serif';
+	text-shadow: 10px 10px 10px grey;
+}
+
+#rinizia-gioco {
+	margin-bottom: 5px;
+	margin-top: 3px;
+}
+#tabella {
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 10px 10px 10px black;
+	border : 5px solid black;
+	line-height: 110px;
+}
+
+#titolo {
+	padding-top: 0 auto;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+article h2 {
+	margin: 0 auto;
+}
+
+article h3 {
+	margin: 0 auto;
+}
+nav {
+	text-align: center;
+}
+
+.raw {
+	margin-top: 5px;
+}
+
+.arrowgreen{
+	text-align: left;
+	width: 100%; /*width of menu*/
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-size: 1px;
+	border-width: 1px;
+}
+
+.arrowgreen ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+.arrowgreen li a{
+	color: white;
+	margin-bottom: 1px;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	background: transparent url("../img/arrowblue.gif") 100% 0;
+  	height: 32px; /*Set to height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+	padding: 4px 0 4px 10px;
+	line-height: 24px; /*Set line-height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+	text-decoration: none;
+}	
+
+.arrowgreen li a:hover{
+	color: #26370A;
+	background-position: 100% -32px;
+}
+
+	
+.arrowgreen li a.selected{
+	color: #26370A;
+	background-position: 100% -64px;
+}
+
