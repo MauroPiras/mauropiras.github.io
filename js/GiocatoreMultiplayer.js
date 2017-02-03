@@ -15,14 +15,14 @@ function assegnaRiquadro(event)
 				$('article h2 b').text("Turno : Giocatore 1!");
 			} 
 		}
-	}
-	controlloRighe();
-	controllaDiagonali();
-	controlloColonne();
-	if (contatore==9) 
-	{
-		if(vincitore == "n")
-			giocoFinito();
+		controlloRighe();
+		controllaDiagonali();
+		controlloColonne();
+		if (contatore==9) 
+		{
+			if(vincitore == "n")
+				giocoFinito();
+		}
 	}
 };
 
